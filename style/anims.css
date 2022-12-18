@@ -1,0 +1,16 @@
+.hover-scale{
+    transition-duration: .9s;
+    z-index: 0;
+}
+.hover-scale:hover{
+    z-index: 500;
+    transform: scale(1.1);
+}
+.hover-bg-white{
+    background-color: none;
+    transition-duration: .8s;
+    color: none;
+}
+.hover-bg-white:hover{
+    background-color: azure;
+}

@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+a:link {
+    color: none;
+  }
+  
+  a:visited {
+    color: none;
+  }
+
+  a:hover {
+    text-decoration: none ;
+
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: none;
+}
+/* width */
+::-webkit-scrollbar {
+    width:0vh;  
+  }
